@@ -1,0 +1,236 @@
+/* CSS stylesheet */
+
+h2  {
+  font-size: 200px;
+  margin-left: 34vw;
+  margin-top: 2vh;
+
+}
+
+h2:hover {
+  opacity: 65%;
+}
+
+body {
+    font-family: Pixelify;
+    font-size: 25px;
+    color: white;
+    background-image: url(background.png);
+    background-size:cover;
+    width: 101vw;
+    height: 200vh;
+    max-width: 100vw;
+    overflow-x: scrollable;
+    max-height: 100vh;
+    overflow-y: scrollable;
+    letter-spacing: 1px;
+}
+
+@font-face {
+  font-family: Pixelify;
+  src: url(Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+}
+
+.clickhere {
+  float: left;
+  height: auto;
+  width: 20vw;
+  padding: 0px;
+
+}
+
+.paragraph {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 45px;
+  text-align: justify;
+  color: white; 
+}
+
+.Title-Watermark{
+  width:60%;
+  height:auto;
+  margin-top: 9px;
+  margin-left: 42vw;
+  opacity: 40%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+   width: 100%;
+   height: auto;
+  }
+
+  .hamburger-button {
+    color:#a571c0;
+    background-color:transparent;
+    border:0px;
+    padding: 3px;
+    font-size: 24px;
+    cursor: pointer;
+    width: 6vw;
+    height: auto;
+    margin-right: 45vw;
+    margin-top:3px;
+  }
+
+  .hamburger-button:hover {
+    opacity: 75%;
+  }
+  
+  .nav-links {
+    display: none;
+    background-color: transparent;
+    margin-right:50%;
+    color: white;
+
+ }
+ 
+ .nav-links a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right:50%;
+ }
+ .nav-links a:hover {
+    fill:#a571c0;
+    opacity: 80%;
+    
+ }
+
+ .sprite_animation {
+  width: 47vw;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 5.5vh;
+  
+ }
+
+.jump_animation {
+  float:right;
+  width: 9vw;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 5.5vh;
+}
+
+.Title_Page {
+  margin-top: 150px;
+  width: 70vw;
+  margin-left: 15vw;
+}
+
+.Title_Page a:hover {
+   opacity: 75%; 
+}
+
+.Page_Title {
+  width: 30%;
+  margin-left: 35%;
+  margin-right: auto;
+  margin-bottom: -50px;
+}
+
+.sprite_jump {
+  margin-right: 20vw;
+  padding: 5px;
+}
+
+.column_img {
+  float: left;
+  margin-left: 6px;
+  width: 24%;
+  padding-left: 4%; 
+  padding-right: 4%;
+  padding-bottom: 4%;
+  font-size: medium;
+  font-weight:lighter;
+  text-align: justify;
+}
+
+.column_img a:hover {
+  opacity: 75%;
+}
+
+
+.backbutton {
+  width: 55px;
+  padding: 0px;
+}
+
+.backbutton a:hover {
+  opacity: 75%;
+}
+
+.spritepagetext {
+  padding: 20px;
+  font-size: 2vw;
+  float:left;
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(224, 154, 199);
+  opacity: 75%;
+  color: white;
+  text-align:center;
+  font-size:xx-small;
+  padding:0.5%;
+}
+
+.column_footer {
+  float: left;
+  width: 33%;
+}
+
+.column_footer_email {
+  float: left;
+  width: 33%;
+  color: white;
+}
+
+.column_footer_email:hover {
+ opacity: 70%;
+}
+
+.gamecreditstext {
+  padding: 5px;
+  font-size: x-small;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 50px;
+
+}
+
+.tilemap {
+  width: 85vw;
+  padding: 15vw;
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
