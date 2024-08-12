@@ -15,7 +15,7 @@ body {
     font-family: Pixelify;
     font-size: 25px;
     color: white;
-    background-image: url(website/background.png);
+    background-image: src="website/background.png";
     background-size:cover;
     width: 101vw;
     height: 200vh;
@@ -28,7 +28,7 @@ body {
 
 @font-face {
   font-family: Pixelify;
-  src: url(Pixelify_Sans/PixelifySans-VariableFont_wght.ttf);
+  src="website/Pixelify_Sans/Pixelify_Sans/PixelifySans-VariableFont_wght.ttf"
 }
 
 .clickhere {
