@@ -20,7 +20,7 @@ body {
     width: 101vw;
     height: 200vh;
     max-width: 100vw;
-    overflow-x: scrollable;
+    overflow-x: hidden;
     max-height: 100vh;
     overflow-y: scrollable;
     letter-spacing: 1px;
